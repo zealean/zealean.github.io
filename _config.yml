@@ -1,0 +1,31 @@
+# Site settings
+title: Zealean
+email: ""
+description: "Zealean's Techblog."
+baseurl: ""
+url: "http://zouzhilan.com"
+permalink: /:year/:title
+
+
+# Social account
+twitter:  zealean
+# weibo:    ID
+github:   zealean
+codepen:  zealean
+# dribbble: username
+
+
+# Comment
+# disqus_shortname:
+
+
+# Google Analytics
+google_analytics: UA-60830414-1
+
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+gems:
+  - jekyll-sitemap
