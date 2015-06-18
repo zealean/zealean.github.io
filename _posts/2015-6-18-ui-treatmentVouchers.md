@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 就诊凭证
-tags: 海鹚UI 2.0
+tags: 海鹚UI2.0
 ---
 
 
