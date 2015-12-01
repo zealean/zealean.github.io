@@ -73,7 +73,7 @@
 					
 					</li>
 				</ul>
-			</nav>			
+			</nav>
 </div>
     </header>
     <div id="container">
@@ -178,11 +178,11 @@
 		
 
 		<p class="copyright">
-		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2015 
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2015
 		
 		<a href="/about" target="_blank" title="John Doe">John Doe</a>
 		
-		
+
 		</p>
 </div>
 </footer>
@@ -192,7 +192,7 @@
 <script src="/js/jquery.qrcode-0.12.0.min.js"></script>
 
 <script type="text/javascript">
-$(document).ready(function(){ 
+$(document).ready(function(){
   $('.navbar').click(function(){
     $('header nav').toggleClass('shownav');
   });
@@ -215,7 +215,7 @@ $(document).ready(function(){
   });
   o.click(function(){
     o.css('display', 'none').removeClass('beforeFadeIn');
-    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');
     m.removeClass('moveMain');
   });
   $(window).scroll(function(){
@@ -223,14 +223,14 @@ $(document).ready(function(){
   });
   
   $(window).resize(function(){
-    getSize(); 
+    getSize();
     if (myWidth >= 1024) {
       $('header nav').removeClass('shownav');
     }else{
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
-        
+      
     }
   });
 });
@@ -248,7 +248,7 @@ $(document).ready(function(){
 <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
 <script src="/fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript">
-$(document).ready(function(){ 
+$(document).ready(function(){
   $('.article-content').each(function(i){
     $(this).find('img').each(function(){
       if ($(this).parent().hasClass('fancybox')) return;
@@ -263,7 +263,7 @@ $(document).ready(function(){
   if($.fancybox){
     $('.fancybox').fancybox();
   }
-}); 
+});
 </script>
 
 
@@ -299,6 +299,11 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 <!-- Tiny_search Begin -->
 
 <!-- Tiny_search End -->
+
+<!-- zhan nei search-->
+<script type="text/javascript">(function(){document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E'));var bdcs = document.createElement('script');bdcs.type = 'text/javascript';bdcs.async = true;bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=16194118218364656722' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date()/3600000);var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bdcs, s);})();</script>
+
+
 
   </body>
  </html>
